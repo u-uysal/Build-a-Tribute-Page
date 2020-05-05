@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #c1c9d6;
+  background-color: #e1e5eb;
 }
 header {
   width: 100%;
@@ -19,6 +19,11 @@ header p {
 }
 #img-div {
   background-color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #img-caption {
   color: rgb(51, 51, 51);
@@ -36,4 +41,27 @@ ul {
 }
 li {
   padding-top: 1em;
+  font-size: 1em;
+}
+
+blockquote p {
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+blockquote footer {
+  text-align: center;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+h3 {
+  text-align: center;
+  margin-top: 1em;
+  padding-bottom: 2em;
 }
