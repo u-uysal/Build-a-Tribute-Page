@@ -10,3 +10,12 @@ h1 {
 header p {
   text-align: center;
 }
+#img-caption {
+  color: rgb(51, 51, 51);
+  text-align: center;
+}
+#headline {
+  color: #333;
+  text-align: center;
+  margin-top: 2em;
+}
